@@ -1,0 +1,11 @@
+.image-info {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.image-text {
+  font-size: 0.85rem;
+  word-wrap: break-word;
+}

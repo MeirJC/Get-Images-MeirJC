@@ -1,0 +1,24 @@
+.image-list {
+  /* border: 2px solid #333;
+  columns: 4 300px;
+  rows: 6 800px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.image-list>div {
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 1px solid #aaa;
+
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
