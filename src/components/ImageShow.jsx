@@ -20,7 +20,7 @@ function ImageShow({ image }) {
           <b>Medium size link:</b> {image.urls.regular}
         </p>
         <p className="image-text">
-          <b>ull size link:</b>F {image.urls.full}
+          <b>Full size link:</b> {image.urls.full}
         </p>
         <p className="image-text">
           <b>Alt description:</b> {image.alt_description}

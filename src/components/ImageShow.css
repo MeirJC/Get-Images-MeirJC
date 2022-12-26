@@ -6,6 +6,12 @@
 }
 
 .image-text {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   word-wrap: break-word;
+  color: #222;
+}
+
+b {
+  font-weight: 600;
+  color: #444;
 }
